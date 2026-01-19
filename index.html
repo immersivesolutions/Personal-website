@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ciaran Cullen — Senior .NET Developer. Bentley Motors Digital Factory (Configurator), Mulliner visualiser, .NET 10, Azure, AWS, CI/CD." />
+  <meta name="theme-color" content="#0b1220" />
+
+  <title>Ciaran Cullen — Senior .NET Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Background décor -->
+  <div class="bg">
+    <div class="bg__glow bg__glow--a"></div>
+    <div class="bg__glow bg__glow--b"></div>
+    <div class="bg__grid"></div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Ciaran Cullen</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link" href="#work">Work</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link nav__cta" href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu" type="button" aria-label="Open menu" aria-expanded="false">
+        <span class="menu__bar"></span>
+        <span class="menu__bar"></span>
+        <span class="menu__bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobile" id="mobileNav" hidden>
+      <div class="container mobile__inner">
+        <a class="mobile__link" href="#work">Work</a>
+        <a class="mobile__link" href="#skills">Skills</a>
+        <a class="mobile__link" href="#about">About</a>
+        <a class="mobile__link mobile__cta" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="pill">
+            <span class="pill__dot" aria-hidden="true"></span>
+            <span>Senior .NET Developer • Full Stack Engineer</span>
+          </div>
+
+          <h1 class="hero__title">
+            Building modern tools, integrations and premium configuration experiences.
+          </h1>
+
+          <p class="hero__subtitle">
+            Senior developer in Bentley Motors’ Digital Factory (via Paramex), delivering internal
+            tooling behind the Bentley car configurator — including Unreal Engine scripting, QA automation,
+            VW Group integrations, and cloud-ready delivery across Azure & AWS.
+          </p>
+
+          <div class="hero__highlights">
+            <div class="highlight">
+              <div class="highlight__top">50%+ faster QA</div>
+              <div class="highlight__bottom">Custom tools + workflow automation</div>
+            </div>
+            <div class="highlight">
+              <div class="highlight__top">Mulliner visualiser</div>
+              <div class="highlight__bottom">Bespoke commissioning experience</div>
+            </div>
+            <div class="highlight">
+              <div class="highlight__top">.NET Framework → .NET 10</div>
+              <div class="highlight__bottom">Modernisation + maintainability</div>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Get in touch</a>
+            <a class="btn btn--ghost" href="#work">View experience</a>
+
+            <!-- Optional: add your CV file into /assets and rename the href -->
+            <a class="btn btn--soft" href="./assets/Ciaran_Cullen_Senior_DotNet_Developer_CV.docx" download>
+              Download CV
+            </a>
+          </div>
+
+          <div class="meta">
+            <span class="meta__item">Stourbridge, UK</span>
+            <span class="meta__sep" aria-hidden="true">•</span>
+            <span class="meta__item">Azure • AWS • Docker • CI/CD</span>
+          </div>
+        </div>
+
+        <aside class="hero__card" aria-label="Quick profile card">
+          <div class="card">
+            <div class="card__header">
+              <div class="avatar" aria-hidden="true">
+                <span>CC</span>
+              </div>
+              <div>
+                <div class="card__name">Ciaran Cullen</div>
+                <div class="card__role">Senior .NET Developer</div>
+              </div>
+            </div>
+
+            <div class="card__body">
+              <div class="stat">
+                <div class="stat__value">Bentley</div>
+                <div class="stat__label">Digital Factory tooling</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">Unreal</div>
+                <div class="stat__label">2D/3D visualisation scripts</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">Vue + TS</div>
+                <div class="stat__label">Modern internal web apps</div>
+              </div>
+            </div>
+
+            <div class="card__footer">
+              <a class="link" href="#contact">Open to senior roles</a>
+              <span class="dot" aria-hidden="true"></span>
+              <a class="link" href="#skills">Tech stack</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- TRUST / STACK BAR -->
+    <section class="bar" aria-label="Technology highlights">
+      <div class="container bar__inner">
+        <div class="chip">C#</div>
+        <div class="chip">.NET Framework</div>
+        <div class="chip">.NET 10</div>
+        <div class="chip">ASP.NET Web API</div>
+        <div class="chip">Vue.js</div>
+        <div class="chip">TypeScript</div>
+        <div class="chip">Unreal Engine</div>
+        <div class="chip">Azure</div>
+        <div class="chip">AWS CDK</div>
+        <div class="chip">Docker</div>
+        <div class="chip">GitHub Actions</div>
+        <div class="chip">Azure DevOps</div>
+      </div>
+    </section>
+
+    <!-- WORK / EXPERIENCE -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section__head">
+          <h2>Experience</h2>
+          <p>Impact-focused delivery across premium automotive tooling and enterprise platforms.</p>
+        </div>
+
+        <div class="timeline">
+
+          <article class="role">
+            <div class="role__left">
+              <div class="role__company">Paramex Limited</div>
+              <div class="role__meta">Digital Factory • Bentley Motors internal tools</div>
+              <div class="role__dates">Jan 2019 — Present</div>
+            </div>
+
+            <div class="role__right">
+              <h3 class="role__title">Senior Developer — Bentley Car Configurator & Internal Tooling</h3>
+
+              <div class="badges">
+                <span class="badge">C# / .NET</span>
+                <span class="badge">Vue + TypeScript</span>
+                <span class="badge">Unreal Engine</span>
+                <span class="badge">Azure + AWS</span>
+                <span class="badge">CI/CD • Docker</span>
+              </div>
+
+              <div class="role__grid">
+                <div class="panel">
+                  <h4>Key achievements</h4>
+                  <ul>
+                    <li><strong>Reduced QA checking time by 50%+</strong> by building custom web tools to streamline and automate media validation workflows.</li>
+                    <li><strong>Modernised outdated processes</strong> across the team, improving efficiency from engineering delivery through to final media checking and release readiness.</li>
+                    <li><strong>Delivered a bespoke Mulliner visualiser</strong>, supporting Bentley’s personal commissioning division by enabling premium, high-fidelity vehicle specification visualisation and configuration.</li>
+                  </ul>
+                </div>
+
+                <div class="panel">
+                  <h4>What I work on</h4>
+                  <ul>
+                    <li>Internal tooling supporting configurator delivery (media, validation and workflow automation).</li>
+                    <li>2D/3D configuration and visualisation scripting using <strong>Unreal Engine</strong>.</li>
+                    <li>Integrations into <strong>VW Group systems</strong> using .NET services and modern web front-ends.</li>
+                    <li>DevOps-enabled delivery using <strong>GitHub Actions / Azure DevOps</strong>, Docker and cloud deployments.</li>
+                    <li>Infrastructure automation patterns using <strong>AWS CDK</strong>.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="role">
+            <div class="role__left">
+              <div class="role__company">InTouch Now Ltd</div>
+              <div class="role__meta">CRM platform • product delivery + operations</div>
+              <div class="role__dates">2010 — 2019</div>
+            </div>
+
+            <div class="role__right">
+              <h3 class="role__title">Technical Director / Lead Developer</h3>
+
+              <div class="badges">
+                <span class="badge">C# / ASP.NET</span>
+                <span class="badge">SQL Server</span>
+                <span class="badge">Web APIs</span>
+                <span class="badge">CI tooling</span>
+              </div>
+
+              <div class="panel">
+                <ul>
+                  <li>Owned platform delivery, engineering standards, stability and operational reliability.</li>
+                  <li>Led large improvements in performance, maintainability and supportability.</li>
+                  <li>Managed and mentored developers (office-based and remote), improving delivery consistency.</li>
+                  <li>Balanced uptime, performance and cost across infrastructure and production support.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="role">
+            <div class="role__left">
+              <div class="role__company">InTouch Now Ltd</div>
+              <div class="role__meta">CRM platform • modernisation</div>
+              <div class="role__dates">2006 — 2010</div>
+            </div>
+
+            <div class="role__right">
+              <h3 class="role__title">Full Stack Developer</h3>
+              <div class="panel">
+                <ul>
+                  <li>Developed and enhanced CRM functionality across multiple releases and client projects.</li>
+                  <li>Supported migration from <strong>Classic ASP → .NET</strong>, improving maintainability and scalability.</li>
+                  <li>Delivered modernised functionality using AngularJS + Web API + Microservices + Entity Framework.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="role">
+            <div class="role__left">
+              <div class="role__company">Allied Telesis</div>
+              <div class="role__meta">Web operations & development</div>
+              <div class="role__dates">2003 — 2006</div>
+            </div>
+
+            <div class="role__right">
+              <h3 class="role__title">Web Operations Manager / Junior Web Developer</h3>
+              <div class="panel">
+                <ul>
+                  <li>Maintained and enhanced corporate websites and intranet systems across Europe and Latin America.</li>
+                  <li>Worked closely with stakeholders on CRM usability improvements and reporting needs.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <h2>Skills</h2>
+          <p>A modern full-stack .NET skillset with strong delivery, tooling, and platform integration experience.</p>
+        </div>
+
+        <div class="cards">
+          <div class="card2">
+            <h3>Backend & Integration</h3>
+            <ul>
+              <li>C#, .NET Framework, .NET 10</li>
+              <li>ASP.NET Web API, REST services</li>
+              <li>Integration-focused development</li>
+              <li>Clean, maintainable architectures</li>
+            </ul>
+          </div>
+
+          <div class="card2">
+            <h3>Frontend</h3>
+            <ul>
+              <li>Vue.js + TypeScript</li>
+              <li>Modern UI building and tooling</li>
+              <li>Responsive, mobile-first delivery</li>
+              <li>Quality-focused UX improvements</li>
+            </ul>
+          </div>
+
+          <div class="card2">
+            <h3>DevOps & Cloud</h3>
+            <ul>
+              <li>GitHub Actions, Azure DevOps</li>
+              <li>Dockerised development workflows</li>
+              <li>Azure + AWS deployment patterns</li>
+              <li>AWS CDK infrastructure automation</li>
+            </ul>
+          </div>
+
+          <div class="card2">
+            <h3>Visualisation & QA Tooling</h3>
+            <ul>
+              <li>Unreal Engine scripting for 2D/3D</li>
+              <li>Vehicle configuration workflows</li>
+              <li>Media validation and QA tooling</li>
+              <li>Automation-first mindset</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="section__head">
+          <h2>About</h2>
+          <p>Senior engineer with a delivery mindset — pragmatic, detail-oriented and focused on quality.</p>
+        </div>
+
+        <div class="about__grid">
+          <div class="panel">
+            <h3>How I work</h3>
+            <p>
+              I build reliable, maintainable solutions that improve speed and quality across teams — from
+              engineering workflows to QA tooling and release readiness. I’m comfortable modernising legacy
+              processes, integrating with enterprise systems, and shipping clean end-to-end features.
+            </p>
+          </div>
+
+          <div class="panel">
+            <h3>What I’m looking for</h3>
+            <p>
+              Senior .NET roles where I can contribute across core delivery, tooling, integrations and cloud-ready
+              deployment patterns — ideally in teams that value quality, maintainability, and measurable impact.
+            </p>
+          </div>
+
+          <div class="panel">
+            <h3>Education</h3>
+            <p><strong>MSc Software Development (Merit)</strong> — 2001–2002</p>
+            <p>Strong foundation in OOP, software design, databases and web development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta">
+          <div class="cta__left">
+            <h2>Contact</h2>
+            <p>
+              If you'd like to discuss senior .NET roles or collaboration, feel free to reach out.
+              I’m happy to share further details and examples where appropriate.
+            </p>
+          </div>
+
+          <div class="cta__right">
+            <a class="btn btn--primary btn--wide" href="mailto:cacullen2002@googlemail.com">
+              Email me
+            </a>
+
+            <!-- Optional: add your LinkedIn -->
+            <a class="btn btn--ghost btn--wide" href="#" onclick="return false;">
+              LinkedIn (add link)
+            </a>
+
+            <!-- Optional: add your GitHub -->
+            <a class="btn btn--soft btn--wide" href="#" onclick="return false;">
+              GitHub (add link)
+            </a>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div>© <span id="year"></span> Ciaran Cullen</div>
+          <a class="footer__link" href="#top">Back to top ↑</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
